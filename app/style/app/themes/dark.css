@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** DARK STYLE ***************************************/
+
+@import "../system/palettes.css";
+
+/* !CSS CUSTOM PROPERTIES
+/* !GLOBALS
+/* !CUSTOM
+/* --- !something
+
+/******************************* !CSS CUSTOM PROPERTIES *******************************/
+
+:root .dark {
+    
+    /* defaults */
+    --copy-color: var(--light-2);
+    --copy-hover: var(--light-1);
+    
+}
+
+/******************************* !GLOBALS *******************************/
+
+html .dark,
+body.dark {
+    
+    background: var(--dark-4);
+    
+}
+
+html .dark, 
+body.dark,
+body.dark main, 
+body.dark header, 
+body.dark footer, 
+body.dark p,
+body.dark h1, 
+body.dark h2, 
+body.dark h3, 
+body.dark h4, 
+body.dark h5, 
+body.dark h6 {
+
+    color: var(--copy-color);
+
+}
+    
+body.dark button,
+body.dark a,
+body.dark input {
+
+    color: currentColor;
+
+}
+    
+body.dark button {
+	
+    background-color: transparent;
+    border-color: currentColor;
+
+}
+
+body.dark button:hover,
+body.dark a:hover,
+body.dark a:hover > p {
+
+    color: var(--copy-hover);
+
+}
+
+    /* button hover */
+body.dark button:not([disabled]):hover {
+
+    border-color: var(--copy-hover);
+    color: var(--copy-hover);
+
+}
+
+/******************************* !CUSTOM *******************************/

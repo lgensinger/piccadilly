@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** LIGHT STYLE ***************************************/
+
+@import "../system/palettes.css";
+
+/* !CSS CUSTOM PROPERTIES
+/* !GLOBALS
+/* !CUSTOM
+/* --- !something
+
+/******************************* !CSS CUSTOM PROPERTIES *******************************/
+
+:root .light {
+    
+    /* defaults */
+    --copy-color: var(--dark-1);
+    --copy-hover: var(--dark-3);
+    
+}
+
+/******************************* !GLOBALS *******************************/
+
+html .light,
+body.light {
+    
+    background: var(--light-2);
+    
+}
+
+html .light, 
+body.light,
+body.light main, 
+body.light header, 
+body.light footer, 
+body.light p,
+body.light h1, 
+body.light h2, 
+body.light h3, 
+body.light h4, 
+body.light h5, 
+body.light h6 {
+
+    color: var(--copy-color);
+
+}
+    
+body.light button,
+body.light a,
+body.light input {
+
+    color: currentColor;
+
+}
+    
+body.light button {
+	
+    background-color: transparent;
+    border-color: currentColor;
+
+}
+
+body.light button:hover,
+body.light a:hover,
+body.light a:hover > p {
+
+    color: var(--copy-hover);
+
+}
+
+    /* button hover */
+body.light button:not([disabled]):hover {
+
+    border-color: var(--copy-hover);
+    color: var(--copy-hover);
+
+}
+
+/******************************* !CUSTOM *******************************/

@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** table elements STYLE ***************************************/
+
+@import "../system/typography.css";
+
+/* !IMPORTS
+/* !GLOBALS
+/* !CUSTOM
+/* --- !something
+ 
+/******************************* !GLOBALS *******************************/
+
+table p {
+    
+    margin-bottom: 0;
+    margin-top: 2em;
+    
+}
+
+thead {
+    
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    font-size: var(--table-header);
+    font-weight: var(--sans-serif-bold);
+    text-transform: uppercase;
+    
+}
+
+td, th {
+    
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    text-align: left;
+    
+}
+
+th {
+    
+    padding-bottom: 0.75em;
+    padding-top: 0.75em;
+    
+}
+
+td {
+    
+    border: 0 none;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    
+}
+
+tr {
+    
+    cursor: pointer;
+    
+}
+
+tfoot td {
+    
+    border-bottom: none;
+    font-size: 0.75em;
+    
+}
+
+/******************************* !CUSTOM *******************************/

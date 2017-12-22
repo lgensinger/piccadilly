@@ -1,0 +1,14 @@
+# use an official node runtime as parent image
+FROM node
+
+# copy needed directories into container
+ADD . /
+
+# install needed node modules
+RUN npm install
+
+# make port 3000 available to the world outside this container
+EXPOSE 3000
+
+# live reload host when the container launches
+CMD ["npm", "start"]

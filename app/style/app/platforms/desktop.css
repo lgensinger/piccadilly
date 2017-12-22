@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** desktop STYLE ***************************************/
+
+@import "../system/typography.css";
+@import "../system/shapes.css";
+@import "../system/forms.css";
+
+/* !GLOBALS
+/* !CUSTOM
+/* --- !something
+ 
+/******************************* !GLOBALS *******************************/
+
+html, body {
+    
+    font-family: var(--serif), serif;
+    font-size: var(--copy-size);
+    
+}
+
+:hover,
+:focus {
+	
+	-o-transition: all 100ms;
+	-moz-transition: all 100ms;
+	-webkit-transition: -webkit-all 100ms;
+	transition: all 100ms;
+	
+}
+
+html,
+body,
+h1,
+h2,
+h3 {
+	
+	font-family: var(--serif), serif;
+	
+}
+
+h1,
+h2,
+h3 {
+    
+    font-size: var(--headline-size);
+    line-height: var(--headline-leading);
+    margin-bottom: 0.5em;
+    
+}
+
+h4, 
+h5, 
+h6 {
+    
+    font-family: var(--sans-serif), sans-serif;
+    
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    
+    max-width: var(--headline-max-width);
+    width: 40%;
+    
+}
+
+/******************/
+/***** !copy ******/
+/******************/
+
+p, 
+thead, 
+tfoot, 
+tbody, 
+li, 
+td, 
+small {
+
+    font-family: var(--sans-serif), sans-serif;
+    line-height: var(--copy-leading);
+    margin-bottom: 1em;
+    max-width: var(--copy-max-width);
+    
+}
+
+small {
+    
+    display: block;
+    
+}
+
+span {
+    
+    font-family: inherit;
+    
+}
+
+/*******************/
+/***** !lists ******/
+/*******************/
+
+ul, 
+ol {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    
+    list-style-type: disc;
+    margin-left: 2em;
+    padding-left: 0.5em;
+    
+}
+
+a {
+	
+	cursor: pointer;
+    text-decoration: none;
+	
+}
+
+/******************/
+/***** !bold ******/
+/******************/
+
+b, 
+strong {
+    
+    font-weight: var(--sans-serif-bold);
+    
+}
+
+button {
+	
+	border: var(--line-thin);
+	border-style: solid;
+	font-size: var(--button-regular);
+	padding: 0.5em;
+	
+}
+
+a:focus,
+button:focus {
+	
+	outline: none;
+	
+}
+
+/******************************* !CUSTOM *******************************/

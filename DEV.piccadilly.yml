@@ -1,0 +1,15 @@
+version: "3.3"
+  
+
+services:
+
+  web:
+    container_name: piccadilly.desktop.dev
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: piccadilly.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./app:/app

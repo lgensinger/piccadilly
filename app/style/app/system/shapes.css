@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** SHAPES STYLE ***************************************/
+
+@import "../system/typography.css";
+
+/* !CSS CUSTOM PROPERTIES
+/* --- !elements
+/* --- !grid tile
+/* --- !visuals
+/* --- !search
+/* --- !line work
+
+/******************************* !CSS CUSTOM PROPERTIES *******************************/
+
+:root {
+
+    /**********************/
+    /***** !elements ******/
+    /**********************/
+
+    /* sidebar */
+    --sidebar: 300px;
+    --autocomplete: 150px;
+
+    /***********************/
+    /***** !grid tite ******/
+    /***********************/
+
+    /* large */
+    --tile-large-height: 500px;
+    --tile-large-width: calc(50% - var(--copy-gutter-quarter));
+
+    /* medium */
+    --tile-medium-height: 300px;
+    --tile-medium-width: calc((100% / 3) - var(--copy-gutter-quarter));
+
+    /* small */
+    --tile-small-height: 150px;
+    --tile-small-width: calc(20% - var(--copy-gutter-quarter));
+
+    /*********************/
+    /***** !visuals ******/
+    /*********************/
+
+    /* inset size */
+    --inset-visual-height: 300px;
+    --inset-visual-height-inline: 50px;
+    --inset-visual-width: 400px;
+
+    /********************/
+    /***** !search ******/
+    /********************/
+
+    /* inset size */
+    --inset-search-width: 20%;
+    --inset-search-width-max: 600px;
+    --inset-search-width-min: 300px;
+
+    /***********************/
+    /***** !line work ******/
+    /***********************/
+
+    /* line weights */
+    --line-extra-thin: 0.5px;
+    --line-thin: 1px;
+    --line-regular: 2px;
+    --line-thick: 3px;
+    --line-extra-thick: 6px;
+
+    /* menus */
+    --menu-left: 200px;
+
+    /* icons */
+    --icon-large: 4em;
+
+}

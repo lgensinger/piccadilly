@@ -1,0 +1,73 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** html form elements STYLE ***************************************/
+
+@import "../system/typography.css";
+
+/* !IMPORTS
+/* !GLOBALS
+/* !CUSTOM
+/* --- !something
+ 
+/******************************* !GLOBALS *******************************/
+
+form,
+form label {
+    
+    margin: 0;
+    
+}
+
+input[type="text"],
+input[type="password"] {
+    
+    max-width: var(--copy-max-width);
+    min-width: var(--copy-min-width);
+    padding: 0.5em;
+    width: calc(100 - 1em);
+    
+}
+
+input[type="text"], textarea {
+    
+    margin-top: 0.5em;
+    
+}
+
+input[type="radio"] {
+    
+    display: none;
+    
+}
+
+input[type="radio"] + label {
+    
+    cursor: pointer;
+    padding: 0.5em;
+    
+}
+
+input[type="search"] {
+    
+    padding: var(--copy-gutter-quarter);
+    
+}
+
+textarea {
+    
+    max-width: var(--copy-max-width);
+    min-width: var(--copy-min-width);
+    padding: 0.5em;
+    width: calc(100% - 1em);
+    
+}
+
+input[disabled],
+button[disabled] {
+    
+    opacity: 0.3;
+    
+}
+
+/******************************* !CUSTOM *******************************/

@@ -1,0 +1,94 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*************************************** TYPOGRAPHIC COMBINATIONS ***************************************/
+
+/* !CSS CUSTOM PROPERTIES
+/* --- !sans-serif
+/* --- !serif
+/* --- !type sizes
+
+/******************************* !CSS CUSTOM PROPERTIES *******************************/
+
+:root {
+
+    /************************/
+    /***** !sans-serif ******/
+    /************************/
+
+    --sans-serif: "Roboto";
+    --sans-serif-black: 700;
+    --sans-serif-bold: 700;
+    --sans-serif-regular: 400;
+    --sans-serif-light: 300;
+
+    /*******************/
+    /***** !serif ******/
+    /*******************/
+
+    --serif: "Slabo 27px";
+    --serif-black: 700;
+    --serif-bold: 700;
+    --serif-regular: 400;
+    --serif-light: 300;
+
+
+    /************************/
+    /***** !type sizes ******/
+    /************************/
+
+    /* body copy */
+    --copy-point-size: 16px;
+    --copy-size: 1em;
+    --copy-tiny-size: 0.45em;
+    --copy-small-size: 0.75em;
+    --copy-mid-size: 0.85em;
+    --copy-large-size: 1.2em;
+    --copy-jumbo-size: 1.5em;
+    --copy-max-width: 500px;
+    --copy-min-width: 300px;
+
+    /* body leading */
+    --copy-leading: 1.4;
+
+    /* body kerning */
+    --copy-bold-kerning: 0.25px;
+
+    /* gutters */
+    --copy-gutter: 50px;
+    --copy-gutter-half: calc(var(--copy-gutter) / 2);
+    --copy-gutter-quarter: calc(var(--copy-gutter) / 4);
+    --copy-gutter-eighth: calc(var(--copy-gutter) / 8);
+    --copy-gutter-double: calc(var(--copy-gutter) * 2);
+    --copy-gutter-plus-half: calc(var(--copy-gutter) * 1.5);
+
+    /* subhead */
+    --subhead-size: 1.75em;
+    --subhead-leading: 1.3;
+
+    /* headline */
+    --headline-size: 2em;
+    --headline-small-size: var(--copy-size);
+    --headline-mid-size: 1.25em;
+    --headline-large-size: 3em;
+    --headline-copy-size: 1.5em;
+    --headline-jumbo-size: 7em;
+    --headline-max-width: 700px;
+    --headline-min-width: var(--copy-min-width);
+
+    /* visualization */
+    --visual-label-size: 2em;
+
+    /* leading */
+    --headline-leading: 1.2;
+    --headline-copy-leading: 1.3;
+
+    /* tables */
+    --table-header: 0.9em;
+
+    /* buttons */
+    --button-regular: var(--copy-mid-size);
+    --button-large: var(--copy-large-size);
+    --button-jumbo: var(--headline-size);
+    
+}
