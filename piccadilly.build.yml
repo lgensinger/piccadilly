@@ -1,0 +1,27 @@
+version: "3.3"
+  
+
+services:
+
+  web:
+    container_name: piccadilly.desktop.build
+    build:
+      context: .
+      dockerfile: Dockerfile.build
+    image: piccadilly.build
+    volumes:
+      - dist:/dist
+
+  host:
+    container_name: piccadilly.nginx.build
+    image: nginx
+    depends_on:
+      - web
+    volumes:
+      - dist:/usr/share/nginx/html
+    ports:
+      - "80:80"
+    command: "nginx -g 'daemon off;'"
+
+volumes:
+  dist:

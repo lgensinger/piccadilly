@@ -1,0 +1,44 @@
+{
+  "name": "piccadilly",
+  "version": "1.0.0",
+  "description": "vanilla js modules, web app scaffold",
+  "main": "app/app.js",
+  "scripts": {
+    "build": "rm -rf ./dist && webpack -p --config config/webpack.config.build.js",
+    "start": "node scripts/start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lgensinger/piccadilly.git"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "docker"
+  ],
+  "author": "lindsay gensinger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lgensinger/piccadilly/issues"
+  },
+  "homepage": "https://github.com/lgensinger/piccadilly#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "chalk": "^2.3.0",
+    "css-loader": "^0.28.7",
+    "detect-port": "^1.2.2",
+    "dotenv": "^4.0.0",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
+    "jshint": "^2.9.5",
+    "jshint-loader": "^0.8.4",
+    "resolve-url-loader": "^2.2.1",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}

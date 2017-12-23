@@ -53,7 +53,7 @@ cd piccadilly
 
 ```
 # build docker images/run containers
-docker-compose -f halfmoon.build.yml up
+docker-compose -f piccadilly.build.yml up
 ```
 
 ### Without Docker
